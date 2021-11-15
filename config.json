@@ -1,0 +1,23 @@
+{
+  "source": [
+    "tokens/tokens.json"
+  ],
+  "platforms": {
+    "js": {
+      "transformGroup": "js",
+      "transforms": [
+        "attribute/cti",
+        "name/cti/camel",
+        "color/hex",
+        "size/px"
+      ],
+      "buildPath": "build/",
+      "files": [
+        {
+          "destination": "js/_variables.js",
+          "format": "javascript/es6"
+        }
+      ]
+    }
+  }
+}
